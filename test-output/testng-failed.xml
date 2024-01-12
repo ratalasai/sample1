@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Class_annotation">
+      <class name="Assertions.Soft_Assertions">
         <methods>
-          <include name="OpenApplication"/>
-          <include name="Login"/>
-          <include name="Logout"/>
+          <include name="SoftAssertions"/>
         </methods>
-      </class> <!-- TestNG.Class_annotation -->
+      </class> <!-- Assertions.Soft_Assertions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
